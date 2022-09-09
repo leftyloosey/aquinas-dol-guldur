@@ -36,3 +36,163 @@
     transform: rotate(360deg);
   }
 }
+
+
+/*  */
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+}
+
+/*image formatting section */
+
+img, #img-b {
+  width: 10em;
+  height: auto;
+  border-radius: 0.5em;
+}
+
+#img-a {
+  width: 5em;
+  height: auto;
+  border-radius: 1em;
+}
+
+#img-c {
+  width: 20em;
+  height: auto;
+  border-radius: 0.5em;
+}
+
+
+#img-a:hover,#img-b:hover, #img-c:hover {
+  opacity: .5;
+  transition: 0.5s ease-in-out;
+}
+
+#whitespace {
+  display: flex;
+  height: 50em;
+}
+
+/* general formatting section */
+
+#hbox span {
+  padding-left: 4em;
+}
+
+#section-work span {
+  padding-left: 5em;
+}
+
+#span-h {
+  height: 5em;
+  border-style: solid;
+  border-bottom: 0em;
+  border-top: 0em;
+  border-left: 0em;
+  border-width: 0.2em;
+  margin-right: 25%;
+  padding-right: 1em;
+}
+
+#span-a {
+  height: 5em;
+  border-style: solid;
+  border-bottom: 0em;
+  border-top: 0em;
+  border-left: 0em;
+  border-width: 0.2em;
+  
+}
+
+#span-b {
+  height: 5em;
+  border-style: solid;
+  border-bottom: 0em;
+  border-top: 0em;
+  border-right: 0em;
+  border-width: 0.1em;
+  float: right;
+  max-height: 5em;
+}
+
+/* flex formatting section */
+
+.headerflex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+header span {
+  align-self: top;
+}
+
+#section-about {
+  display: flex;
+  justify-content: space-between;
+}
+
+#section-work {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  
+}
+
+#section-contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resize {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#wclick {
+  display: inline;
+}
+
+/* query */
+
+@media screen and (max-width:600px) {
+  body {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+  }
+
+  #section-work {
+      display: inline-block;
+      list-style: none;
+   
+      
+  }
+  
+  .resize {
+      display: inline-flex;
+      flex-wrap: wrap;
+      align-items: center;
+  
+  }
+  
+  #span-b {
+      float: right;
+      max-width: 2em;
+      
+  }
+
+  #img-a,#img-b { 
+      width:auto;
+      height: 3em;
+  }
+  #img-c {
+      height:4em;
+      width:auto;
+  }
+}
