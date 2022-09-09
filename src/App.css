@@ -40,13 +40,11 @@
 
 /*  */
 
-* {
+/* * {
   box-sizing: border-box;
   text-decoration: none;
   color: black;
-}
-
-/*image formatting section */
+} */
 
 img, #img-b {
   width: 10em;
@@ -77,10 +75,10 @@ img, #img-b {
   height: 50em;
 }
 
-/* general formatting section */
-
 #hbox span {
   padding-left: 4em;
+  text-decoration: none;
+  
 }
 
 #section-work span {
@@ -119,8 +117,6 @@ img, #img-b {
   max-height: 5em;
 }
 
-/* flex formatting section */
-
 .headerflex {
   display: flex;
   justify-content: space-between;
@@ -157,8 +153,6 @@ header span {
 #wclick {
   display: inline;
 }
-
-/* query */
 
 @media screen and (max-width:600px) {
   body {

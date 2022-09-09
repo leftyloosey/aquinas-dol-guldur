@@ -1,4 +1,5 @@
 import Header from './components/Header'
+import Footer from './components/Footer'
 import './App.css';
 
 function App() {
@@ -8,7 +9,9 @@ function App() {
         <p>
           <Header />
         </p>
-
+        <p>
+          <Footer />
+        </p>
       
     </div>
 
@@ -17,3 +20,5 @@ function App() {
 }
 
 export default App;
+
+

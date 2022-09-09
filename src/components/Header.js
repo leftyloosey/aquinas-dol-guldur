@@ -1,5 +1,6 @@
 function Header() {
     return (
+    <div class="container-fluid mt-1">
     <header class="headerflex">
         <span>
             <img src="me.jpg" alt="img"/>
@@ -8,21 +9,22 @@ function Header() {
             david hardin
         </span>
     
-    
+
     <div id="hbox">
-        <span>
-            <a href="#section-about">about</a>
+        <span >
+            <a class="text-decoration-none text-dark" href="#section-about">about</a>
         </span>
 
         <span>
-            <a href="#section-work">work</a>
+            <a class="text-decoration-none text-dark" href="#section-work">work</a>
         </span>
 
         <span>
-            <a href="#section-contact">contact</a>
+            <a class="text-decoration-none text-dark" href="#section-contact">contact</a>
         </span>
     </div>
 </header>
+</div>
     )
 }
 
