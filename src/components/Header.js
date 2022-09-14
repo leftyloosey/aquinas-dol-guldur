@@ -1,31 +1,34 @@
-function Header() {
-    return (
-    <div class="container-fluid mt-1">
-    <header class="headerflex">
-        <span>
-            <img src="me.jpg" alt="img"/>
-        </span>
-        <span id="span-h">
-            david hardin
-        </span>
-    
+import React, { useState } from 'react';
+import Navigation from './Navigation';
+import Project from './Project';
+import About from './About';
+import Resume from './Resume';
+import Contact from './Contact';
 
-    <div id="hbox">
-        <span >
-            <a class="text-decoration-none text-dark" href="#section-about">about</a>
-        </span>
+export default function Header() {
+  const [currentPage, setCurrentPage] = useState('Home');
 
-        <span>
-            <a class="text-decoration-none text-dark" href="#section-work">work</a>
-        </span>
+  const renderPage = () => {
+    if (currentPage === 'Home') {
+      return <Project />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
+    return <About />;
+  };
 
-        <span>
-            <a class="text-decoration-none text-dark" href="#section-contact">contact</a>
-        </span>
+  const handlePageChange = (page) => setCurrentPage(page);
+
+  return (
+    <div>
+      {/* We are passing the currentPage from state and the function to update it */}
+      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/* Here we are calling the renderPage method which will return a component  */}
+      {renderPage()}
     </div>
-</header>
-</div>
-    )
+  );
 }
-
-export default Header
