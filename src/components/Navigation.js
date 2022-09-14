@@ -3,7 +3,7 @@ import React from 'react';
 function Navigation({ currentPage, handlePageChange }) {
     const where = window.location.href
     console.log(where)
-    if (where !== 'http://localhost:3000/#about') {
+    if (where !== 'https://leftyloosey.github.io/aquinas-dol-guldur/#about') {
     return (
         <header className="container-fluid headerflex">
       
@@ -58,7 +58,7 @@ function Navigation({ currentPage, handlePageChange }) {
   )
     }
 
-    if (where === 'http://localhost:3000/#about') { 
+    if (where === 'https://leftyloosey.github.io/aquinas-dol-guldur/#about') { 
       console.log('about')
       return (
         <header className="container-fluid headerflex">

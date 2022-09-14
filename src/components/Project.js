@@ -1,6 +1,6 @@
 function Project() {
     
-        const reptiles = ["alligator", "snake","lizard"]
+        const reptiles = [{1:"alligator"}, {2:"snake"},{3:"lizard"}]
       
         return reptiles.map((reptile) => <li>{reptile}</li>);
       
