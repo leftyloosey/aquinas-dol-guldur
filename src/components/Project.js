@@ -1,15 +1,15 @@
-function Project() {
+function Project(props) {
     
-        const reptiles = ["alligator", "snake","lizard"]
-      
-        return (
+        console.log(props)
+        return ( 
+            // console.log("downward props", props, props.animalia)
         
-        reptiles.map((reptile) => <li key={reptile}>{reptile}</li>
+        props.reptiles.map((animal) => <li key={animal}>{animal}</li>
 
-    
+        )
         )
       
-        )
+        
 }
 
 export default Project

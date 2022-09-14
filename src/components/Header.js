@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 import Navigation from './Navigation';
-import Project from './Project';
+// import Project from './Project';
 import About from './About';
 import Resume from './Resume';
 import Contact from './Contact';
+import Work from './Work';
 
 export default function Header() {
   const [currentPage, setCurrentPage] = useState('Home');
 
   const renderPage = () => {
     if (currentPage === 'Home') {
-      return <Project />;
+      return <Work />;
     }
     if (currentPage === 'Contact') {
       return <Contact />;
@@ -25,9 +26,7 @@ export default function Header() {
 
   return (
     <div>
-      {/* We are passing the currentPage from state and the function to update it */}
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
     </div>
   );
