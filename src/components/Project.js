@@ -1,10 +1,15 @@
 function Project() {
     
-        const reptiles = [{1:"alligator"}, {2:"snake"},{3:"lizard"}]
+        const reptiles = ["alligator", "snake","lizard"]
       
-        return reptiles.map((reptile) => <li>{reptile}</li>);
-      
+        return (
+        
+        reptiles.map((reptile) => <li key={reptile}>{reptile}</li>
 
+    
+        )
+      
+        )
 }
 
 export default Project
