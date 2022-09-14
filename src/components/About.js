@@ -1,7 +1,9 @@
 function About() {
 
     return (
-        <p>david is just this guy, you know.</p>
+        <p className="m-5">david is just this guy, you know.
+        <span><img src="./me.jpg" alt="me.jpg"></img></span>
+        </p>
     )
 
 }
