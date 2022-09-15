@@ -1,15 +1,24 @@
-function Project(props) {
+function Project({ project }) {
     
-        console.log(props)
-        return ( 
-            // console.log("downward props", props, props.animalia)
+    const {name, gitlink, deploy } = project[0] 
+    
+    return ( 
         
-        props.reptiles.map((animal) => <li key={animal}>{animal}</li>
-
-        )
-        )
+        <div key={project}>
+          <ul>
+            <li>
+            {name}
+            </li>
+            <li>
+            {gitlink}
+            </li>
+            <li>
+            {deploy}
+            </li>
+          </ul>
+        </div>
       
-        
+    )
 }
 
 export default Project

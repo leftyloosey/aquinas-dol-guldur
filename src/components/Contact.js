@@ -46,15 +46,7 @@ function Contact() {
           type="text"
           placeholder="Email"
         />
-        {/* <input className='row p-2 m-2'
-          value={guestMessage}
-          name="guestMessage"
-          onChange={handleInputChange}
-          type="textarea"
-          rows={5}
-          cols={5}
-          placeholder="Message"
-        /> */}
+
          <textarea className='row p-2 m-2'
           value={guestMessage}
           name="guestMessage"
