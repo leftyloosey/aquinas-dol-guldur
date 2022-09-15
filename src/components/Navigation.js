@@ -6,7 +6,7 @@ function Navigation({ currentPage, handlePageChange }) {
         <header className="container-fluid headerflex">
       
             <span>
-                <img src="./me2.jpg" alt="me2.jpg"></img>
+                <img src="./me2.jpeg" alt="me2.jpeg"></img>
             </span>
             <span id="span-h">
                 david hardin
