@@ -6,7 +6,7 @@ function Project({ project }) {
     return ( 
         
       <div key={project} className="card" >
-        <img className="card-img-top" alt="pigeon" src="./me2.jpeg" style={style} ></img>
+        <img className="card-img-top" alt="pigeon" src="pigeon.ico" style={style} ></img>
           <div className="card-body">
             {/* <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
             <ul>
