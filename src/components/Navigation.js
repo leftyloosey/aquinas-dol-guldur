@@ -1,12 +1,12 @@
 import React from 'react';
 
 function Navigation({ currentPage, handlePageChange }) {
-
+  const style = { width: '3rem', height:'3rem'};
     return (
         <header className="container-fluid headerflex">
       
             <span>
-                <img src="./me2.jpeg" alt="me2.jpeg"></img>
+                <img src="./me2.jpeg" alt="me2.jpeg" style={style}></img>
             </span>
             <span id="span-h">
                 david hardin
