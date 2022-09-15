@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Navigation({ currentPage, handlePageChange }) {
-  const style = { width: '3rem', height:'3rem'};
+  const style = { width: '8rem', height:'8rem'};
     return (
         <header className="container-fluid headerflex">
       
