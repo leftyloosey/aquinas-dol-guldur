@@ -11,6 +11,9 @@ function Resume() {
           .then((res) => {
             fileDownload(res.data, filename)
           })
+          .catch((err) => {
+            alert(err)
+          })
         }
     
     return (

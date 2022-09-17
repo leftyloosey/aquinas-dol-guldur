@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Navigation({ currentPage, handlePageChange }) {
-  const style = { width: '7rem', height:'9rem'};
+  const style = { width: '5rem', height:'7rem'};
     return (
         <header className="container-fluid col sm-2 headerflex p-3">
           <span id="span-h">
@@ -13,7 +13,7 @@ function Navigation({ currentPage, handlePageChange }) {
           
           
           <div className='col sm-10 d-flex fixed-top flex-row-reverse'>
-            <p>
+            <p className='mt-3'>
             <ul className='navbar list-unstyled'>
                 <li>
                 <a
