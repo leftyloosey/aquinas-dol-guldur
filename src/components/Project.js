@@ -5,7 +5,7 @@ function Project({ project }) {
     const style = { width: '18rem' };
     return ( 
         
-      <div key={project} className="card" >
+      <div key={project} className="card pt-1" >
         <img className="card-img-top" alt="pigeon" src="pigeon.ico" style={style} ></img>
           <div className="card-body">
             {/* <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}

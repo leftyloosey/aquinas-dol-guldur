@@ -1,17 +1,22 @@
 import React from 'react';
 
 function Navigation({ currentPage, handlePageChange }) {
-  const style = { width: '9rem', height:'10rem'};
+  const style = { width: '7rem', height:'9rem'};
     return (
-        <header className="container-fluid headerflex">
-      
-            <span>
+        <header className="container-fluid col sm-6 headerflex">
+          <span id="span-h">
+            {/* <span id="span-h"> */}
+            <p>
                 <img src="./me2.jpeg" alt="me2.jpeg" style={style}></img>
-            </span>
-            <span id="span-h">
                 david hardin
+                </p>
+            {/* </span> */}
+            {/* <span> */}
+               
             </span>
           
+            {/* </div> */}
+          <div className='col sm-6 d-flex flex-row-reverse'>
             <ul className='navbar list-unstyled'>
                 <li>
                 <a
@@ -52,6 +57,8 @@ function Navigation({ currentPage, handlePageChange }) {
             </a>
                 </li>
             </ul>
+            
+            </div>
         </header>
   )
 }

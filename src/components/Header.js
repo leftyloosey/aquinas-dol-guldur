@@ -7,7 +7,7 @@ import Contact from './Contact';
 import Work from './Work';
 
 export default function Header() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('');
 
   const renderPage = () => {
     if (currentPage === 'Home') {

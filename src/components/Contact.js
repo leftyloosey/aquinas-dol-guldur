@@ -16,8 +16,16 @@ function Contact() {
     if (name === 'guestMessage') {
         return setGuestMessage(value)
     }
+  }
+  const handleEmpty = (e) => {
    
-};
+    if (!guestEmail || !fullName || !guestMessage) {
+      // alert('but you must type in this field.')
+      e.target.placeholder = 'you need to type in this field.'
+    }
+  }
+   
+
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
@@ -36,6 +44,7 @@ function Contact() {
           value={fullName}
           name="fullName"
           onChange={handleInputChange}
+          onBlur={handleEmpty}
           type="text"
           placeholder="Name"
         />
@@ -43,6 +52,7 @@ function Contact() {
           value={guestEmail}
           name="guestEmail"
           onChange={handleInputChange}
+          onBlur={handleEmpty}
           type="text"
           placeholder="Email"
         />
@@ -51,6 +61,7 @@ function Contact() {
           value={guestMessage}
           name="guestMessage"
           onChange={handleInputChange}
+          onBlur={handleEmpty}
           rows={5}
           cols={25}
           placeholder="Message"
