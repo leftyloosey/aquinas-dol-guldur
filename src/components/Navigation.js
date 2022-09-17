@@ -8,7 +8,7 @@ function Navigation({ currentPage, handlePageChange }) {
             {/* <span id="span-h"> */}
             <p>
                 <img src="./me2.jpeg" alt="me2.jpeg" style={style}></img>
-                david hardin
+                david_hardin
                 </p>
             {/* </span> */}
             {/* <span> */}
