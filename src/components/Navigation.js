@@ -16,7 +16,8 @@ function Navigation({ currentPage, handlePageChange }) {
             </span>
           
             {/* </div> */}
-          <div className='col sm-6 d-flex flex-row-reverse'>
+          <div className='col md-9 d-flex fixed-top flex-row-reverse'>
+            <span>
             <ul className='navbar list-unstyled'>
                 <li>
                 <a
@@ -57,7 +58,7 @@ function Navigation({ currentPage, handlePageChange }) {
             </a>
                 </li>
             </ul>
-            
+            </span>
             </div>
         </header>
   )
