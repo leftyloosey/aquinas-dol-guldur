@@ -86,9 +86,9 @@ img, #img-b {
   border-bottom: 0em;
   border-top: 0em;
   border-left: 0em;
-  border-width: 0.2em;
-  margin-right: 50%;
-  padding-right: 1em;
+  border-width: 0em;
+  margin-right: 30%;
+  padding-right: 0em;
 }
 
 #span-a {
