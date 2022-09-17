@@ -3,21 +3,17 @@ import React from 'react';
 function Navigation({ currentPage, handlePageChange }) {
   const style = { width: '7rem', height:'9rem'};
     return (
-        <header className="container-fluid col sm-3 headerflex">
+        <header className="container-fluid col sm-2 headerflex p-3">
           <span id="span-h">
             {/* <span id="span-h"> */}
        
                 <img src="./me2.jpeg" alt="me2.jpeg" style={style}></img>
                 david_hardin
-     
-            {/* </span> */}
-            {/* <span> */}
-               
-            </span>
+           </span>
           
-            {/* </div> */}
-          <div className='col sm-9 d-flex fixed-top flex-row-reverse'>
-            
+          
+          <div className='col sm-10 d-flex fixed-top flex-row-reverse'>
+            <p>
             <ul className='navbar list-unstyled'>
                 <li>
                 <a
@@ -58,7 +54,7 @@ function Navigation({ currentPage, handlePageChange }) {
             </a>
                 </li>
             </ul>
-            
+            </p>
             </div>
         </header>
   )

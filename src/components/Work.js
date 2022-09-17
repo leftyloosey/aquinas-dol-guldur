@@ -18,12 +18,12 @@ function Work() {
             <Project project= {project2}/>
             <Project project= {project3}/>
             
-            <div className="container-fluid row mt-5">
+            {/* <div className="container-fluid row mt-5"> */}
             <Project project= {project4}/>
             <Project project= {project5}/>
             <Project project= {project6}/>
 
-            </div>
+            {/* </div> */}
             </div>
           </div>
         </div>
