@@ -8,13 +8,9 @@ function Project({ project }) {
 
     function mouseOver(e) {
       return (e.target.className='text-light text-capitalize text-decoration-none') 
-      // ? e.target.className='text-dark text-capitalize text-decoration-none' 
-      // : e.target.className='text-light text-decoration-none');
     }
     function mouseLeave(e) {
       return (e.target.className='text-dark text-decoration-none') 
-      // ? e.target.className='text-dark text-capitalize text-decoration-none' 
-      // : e.target.className='text-light text-decoration-none');
     }
 
     return ( 

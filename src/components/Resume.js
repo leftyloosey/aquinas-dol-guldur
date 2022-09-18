@@ -9,9 +9,11 @@ function Resume() {
             responseType: 'blob',
           })
           .then((res) => {
+            console.log(res.data,filename)
             fileDownload(res.data, filename)
           })
           .catch((err) => {
+            console.log(err)
             alert(err)
           })
         }
@@ -22,7 +24,7 @@ function Resume() {
           </p>
 
           <div className="App">
-            <button onClick={() => {handleClick('https://github.com/leftyloosey/aquinas-dol-guldur/blob/main/me2.jpeg', 'sample')}}>
+            <button onClick={() => {handleClick('https://github.com/leftyloosey/aquinas-dol-guldur/blob/main/resume.txt', 'resume.txt')}}>
                 download</button>
           </div>
         </div>
