@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+// import { validateEmail } from './utils/validate';
 
 function Contact() {
   const [fullName, setFullName] = useState('');
@@ -18,13 +19,20 @@ function Contact() {
     }
   }
   const handleEmpty = (e) => {
-   
-    if (!guestEmail || !fullName || !guestMessage) {
-      // alert('but you must type in this field.')
-      e.target.placeholder = 'you need to type in this field.'
+    if (!fullName || !guestMessage) {
+    e.target.placeholder = 'this is required.'
     }
   }
-   
+  
+  const validateEmail = (e) => {
+    const re = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+    const x = (re.test(String(e.target.value).toLowerCase()))
+    if (!x || !guestEmail) {
+      setGuestEmail('');
+      e.target.placeholder = 'a valid email, please.'
+    }
+    return re.test(String(e).toLowerCase());
+  }
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
@@ -52,7 +60,7 @@ function Contact() {
           value={guestEmail}
           name="guestEmail"
           onChange={handleInputChange}
-          onBlur={handleEmpty}
+          onBlur={validateEmail}
           type="text"
           placeholder="Email"
         />

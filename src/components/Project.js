@@ -1,23 +1,22 @@
 function Project({ project }) {
     
-    const {name, gitlink, deploy } = project[0] 
+    const {name, gitlink, deploy, img } = project[0] 
 
     const style = { width: '18rem' };
     return ( 
         
       <div key={project} className="card pt-1" >
-        <img className="card-img-top" alt="pigeon" src="pigeon.ico" style={style} ></img>
+        <img className="card-img-top" alt="pigeon" src={img} style={style} ></img>
           <div className="card-body">
-            {/* <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
             <ul>
              <li>
              {name}
              </li>
              <li>
-             {gitlink}
+             <a href={gitlink}>git</a>
              </li>
              <li>
-            {deploy}
+             <a href={deploy}>deployment</a>
              </li>
            </ul>
         </div>
