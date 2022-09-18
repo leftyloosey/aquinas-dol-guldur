@@ -8,7 +8,7 @@ function Project({ project }) {
       <div key={project} className="card pt-1" >
         <img className="card-img-top" alt="pigeon" src={img} style={style} ></img>
           <div className="card-body">
-            <ul>
+            <ul className="list-unstyled text-decoration-none">
              <li>
              {name}
              </li>
@@ -21,9 +21,7 @@ function Project({ project }) {
            </ul>
         </div>
       </div>
-        
-      
-    )
+  )
 }
 
 export default Project
