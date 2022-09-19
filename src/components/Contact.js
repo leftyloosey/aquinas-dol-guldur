@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import { validateEmail } from './utils/validate';
 
 function Contact() {
   const [fullName, setFullName] = useState('');
@@ -18,10 +17,11 @@ function Contact() {
         return setGuestMessage(value)
     }
   }
+  let i = 0
   const handleEmpty = (e) => {
     if (!fullName || !guestMessage) {
     e.target.placeholder = 'this is required.'
-    }
+    } 
   }
   
   const validateEmail = (e) => {
@@ -30,19 +30,21 @@ function Contact() {
     if (!x || !guestEmail) {
       setGuestEmail('');
       e.target.placeholder = 'a valid email, please.'
-    }
+    } 
+
     return re.test(String(e).toLowerCase());
   }
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-
-
-    alert(`Comrade ${fullName}, this function still under construction.`);
-    setFullName('');
-    setGuestMessage('');
-    setGuestEmail('');
-
+    
+      
+    
+    alert(`Comrade ${fullName}, this function still under construction.`)
+    setFullName('')
+    setGuestMessage('')
+    setGuestEmail('')
+   
   };
 
   return (
