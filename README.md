@@ -4,4 +4,4 @@
 
 [over here](https://leftyloosey.github.io/aquinas-dol-guldur/)
 
-![screen](screen.png)
+![screen](./public/screen.png)
