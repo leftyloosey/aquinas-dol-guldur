@@ -7,7 +7,7 @@ function Project({ project }) {
     const style = { width: '18rem' };
 
     function mouseOver(e) {
-      return (e.target.className='text-light text-capitalize text-decoration-none') 
+      return (e.target.className='text-dark font-italic text-decoration-none') 
     }
     function mouseLeave(e) {
       return (e.target.className='text-dark text-decoration-none') 

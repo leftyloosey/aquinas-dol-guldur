@@ -1,22 +1,31 @@
-import axios from 'axios'
-import fileDownload from 'js-file-download'
+// import axios from 'axios'
+// import fileDownload from 'js-file-download'
+import { saveAs } from "file-saver";
+
 
 function Resume() {
+  
 
+    const saveFile = () => {
+      saveAs(
+        "https://github.com/leftyloosey/aquinas-dol-guldur/blob/main/public/resume.txt",
+        "resume.txt"
+      );
+      }
 
-        const handleClick = (url, filename) => {
-          axios.get(url, {
-            responseType: 'blob',
-          })
-          .then((res) => {
-            console.log(res.data,filename)
-            fileDownload(res.data, filename)
-          })
-          .catch((err) => {
-            console.log(err)
-            alert(err)
-          })
-        }
+        // const handleClick = (url, filename) => {
+        //   axios.get(url, {
+        //     responseType: 'blob',
+        //   })
+        //   .then((res) => {
+        //     console.log(res.data,filename)
+        //     fileDownload(res.data, filename)
+        //   })
+        //   .catch((err) => {
+        //     console.log(err)
+        //     alert(err)
+        //   })
+        // }
     
     return (
         <div className="container-fluid">
@@ -24,8 +33,12 @@ function Resume() {
           </p>
 
           <div className="App">
-            <button onClick={() => {handleClick('https://github.com/leftyloosey/aquinas-dol-guldur/blob/main/resume.txt', 'resume.txt')}}>
+            {/* <button onClick={() => {handleClick('https://github.com/leftyloosey/aquinas-dol-guldur/blob/main/resume.txt', 'resume.txt')}}>
+                download</button> */}
+            <button onClick={saveFile}>
                 download</button>
+
+
           </div>
         </div>
     )

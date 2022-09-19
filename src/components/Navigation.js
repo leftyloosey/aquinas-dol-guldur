@@ -1,7 +1,8 @@
 import React from 'react';
 
 function Navigation({ currentPage, handlePageChange }) {
-  const style = { width: '5rem', height:'7rem'};
+  // const style = { width: '5rem', height:'7rem'};
+  const style = {};
     return (
         <header className="container-fluid col sm-2 headerflex">
           <span id="span-h">
