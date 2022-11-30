@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/aquinas-dol-guldur/static/css/main.e6c13ad2.css",
+    "main.js": "/aquinas-dol-guldur/static/js/main.bf3b44a0.js",
+    "static/js/787.1ed0c42c.chunk.js": "/aquinas-dol-guldur/static/js/787.1ed0c42c.chunk.js",
+    "static/media/ruin.jpeg": "/aquinas-dol-guldur/static/media/ruin.6e67cceaa253c44a5882.jpeg",
+    "static/media/me2.jpeg": "/aquinas-dol-guldur/static/media/me2.f5ba14f868687eefb223.jpeg",
+    "static/media/github.png": "/aquinas-dol-guldur/static/media/github.c65f7f24f60c44952672.png",
+    "index.html": "/aquinas-dol-guldur/index.html",
+    "main.e6c13ad2.css.map": "/aquinas-dol-guldur/static/css/main.e6c13ad2.css.map",
+    "main.bf3b44a0.js.map": "/aquinas-dol-guldur/static/js/main.bf3b44a0.js.map",
+    "787.1ed0c42c.chunk.js.map": "/aquinas-dol-guldur/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.bf3b44a0.js"
+  ]
+}
