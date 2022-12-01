@@ -1,18 +1,23 @@
 {
   "files": {
     "main.css": "/aquinas-dol-guldur/static/css/main.e6c13ad2.css",
-    "main.js": "/aquinas-dol-guldur/static/js/main.53740685.js",
+    "main.js": "/aquinas-dol-guldur/static/js/main.c82015f0.js",
     "static/js/787.1ed0c42c.chunk.js": "/aquinas-dol-guldur/static/js/787.1ed0c42c.chunk.js",
     "static/media/ruin.jpeg": "/aquinas-dol-guldur/static/media/ruin.6e67cceaa253c44a5882.jpeg",
+    "static/media/weather_screen.png": "/aquinas-dol-guldur/static/media/weather_screen.75ae8090f5f413c8b8a8.png",
+    "static/media/welder.jpg": "/aquinas-dol-guldur/static/media/welder.98420bf5f9c4f9425115.jpg",
+    "static/media/set_screen.png": "/aquinas-dol-guldur/static/media/set_screen.06250a6d005a30ed8b3e.png",
+    "static/media/social_screen.png": "/aquinas-dol-guldur/static/media/social_screen.9f3cde16a6a72f4075ab.png",
     "static/media/me2.jpeg": "/aquinas-dol-guldur/static/media/me2.f5ba14f868687eefb223.jpeg",
+    "static/media/woman.jpeg": "/aquinas-dol-guldur/static/media/woman.6f7bbe257ca7f33d36ec.jpeg",
     "static/media/github.png": "/aquinas-dol-guldur/static/media/github.c65f7f24f60c44952672.png",
     "index.html": "/aquinas-dol-guldur/index.html",
     "main.e6c13ad2.css.map": "/aquinas-dol-guldur/static/css/main.e6c13ad2.css.map",
-    "main.53740685.js.map": "/aquinas-dol-guldur/static/js/main.53740685.js.map",
+    "main.c82015f0.js.map": "/aquinas-dol-guldur/static/js/main.c82015f0.js.map",
     "787.1ed0c42c.chunk.js.map": "/aquinas-dol-guldur/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.53740685.js"
+    "static/js/main.c82015f0.js"
   ]
 }
