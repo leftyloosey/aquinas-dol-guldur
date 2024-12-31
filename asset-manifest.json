@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/aquinas-dol-guldur/static/css/main.58a8da87.css",
-    "main.js": "/aquinas-dol-guldur/static/js/main.01578a44.js",
+    "main.css": "/aquinas-dol-guldur/static/css/main.e9610cdc.css",
+    "main.js": "/aquinas-dol-guldur/static/js/main.0d5a18cb.js",
     "static/media/green_press.jpg": "/aquinas-dol-guldur/static/media/green_press.37381c8f000647da3292.jpg",
     "static/media/green_ruin.jpg": "/aquinas-dol-guldur/static/media/green_ruin.dc8a321bbcd51b99864a.jpg",
     "static/media/green_bulb_david2.jpg": "/aquinas-dol-guldur/static/media/green_bulb_david2.76b0ec87907902f9196a.jpg",
     "index.html": "/aquinas-dol-guldur/index.html",
-    "main.58a8da87.css.map": "/aquinas-dol-guldur/static/css/main.58a8da87.css.map",
-    "main.01578a44.js.map": "/aquinas-dol-guldur/static/js/main.01578a44.js.map"
+    "main.e9610cdc.css.map": "/aquinas-dol-guldur/static/css/main.e9610cdc.css.map",
+    "main.0d5a18cb.js.map": "/aquinas-dol-guldur/static/js/main.0d5a18cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.58a8da87.css",
-    "static/js/main.01578a44.js"
+    "static/css/main.e9610cdc.css",
+    "static/js/main.0d5a18cb.js"
   ]
 }
