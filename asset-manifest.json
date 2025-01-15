@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/aquinas-dol-guldur/static/css/main.561a6e62.css",
-    "main.js": "/aquinas-dol-guldur/static/js/main.191dde92.js",
-    "static/js/919.c5bd167c.chunk.js": "/aquinas-dol-guldur/static/js/919.c5bd167c.chunk.js",
+    "main.js": "/aquinas-dol-guldur/static/js/main.2f3ec497.js",
+    "static/js/919.ec2c29dc.chunk.js": "/aquinas-dol-guldur/static/js/919.ec2c29dc.chunk.js",
     "static/media/green_malaia_home.png": "/aquinas-dol-guldur/static/media/green_malaia_home.66770a4438ae265c8eab.png",
     "static/media/green_bulb_david2.jpg": "/aquinas-dol-guldur/static/media/green_bulb_david2.76b0ec87907902f9196a.jpg",
     "static/media/green_blendz_home.png": "/aquinas-dol-guldur/static/media/green_blendz_home.0023a86261278e86d8c2.png",
@@ -12,11 +12,11 @@
     "static/media/green_muddy_home.png": "/aquinas-dol-guldur/static/media/green_muddy_home.c63253c68ba7e1898583.png",
     "index.html": "/aquinas-dol-guldur/index.html",
     "main.561a6e62.css.map": "/aquinas-dol-guldur/static/css/main.561a6e62.css.map",
-    "main.191dde92.js.map": "/aquinas-dol-guldur/static/js/main.191dde92.js.map",
-    "919.c5bd167c.chunk.js.map": "/aquinas-dol-guldur/static/js/919.c5bd167c.chunk.js.map"
+    "main.2f3ec497.js.map": "/aquinas-dol-guldur/static/js/main.2f3ec497.js.map",
+    "919.ec2c29dc.chunk.js.map": "/aquinas-dol-guldur/static/js/919.ec2c29dc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.561a6e62.css",
-    "static/js/main.191dde92.js"
+    "static/js/main.2f3ec497.js"
   ]
 }
